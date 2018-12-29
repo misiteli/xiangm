@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>走秀详情页</title>
+    <link rel="stylesheet" type="text/css" href="../css/_base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/details.css" />
+    <link rel="stylesheet" type="text/css" href="../lib/fangdajing/magnifier.css" />
+    <link rel="stylesheet" type="text/css" href="../icon/iconfont.css" />
+    <script src="../lib/jquery-3.2.1.js"></script>
+    <!-- <script src="../lib/fangdajing/jquery-1.11.3.min.js"></script> -->
+    <script src="../lib/fangdajing/magnifier.js"></script>
+    <script src="../js/details.js"></script>
+    <!-- <script src="../js/index.js"></script>  -->
+    <script src="../common.js"></script>
+    
+</head>
+<body>
+    <div id="header">
+        <div class="header con">
+            <div class="header_t">
+                <a href="../html/denglu.html" class="denglu fl">登录/注册</a>
+                <ul class="car fl">
+                    <li>我的购物车</li>
+                    <ul class="car_son fl">
+                        
+                    </ul>
+                </ul>
+                <ul class="main fl">
+                    <li>我的走秀</li>
+                    <ul class="main_son fl">
+                    </ul>
+                </ul>
+                <div class="logo fl">
+                    <a href=""><img src="../images/logo.png" alt="" /></a>
+                </div>
+                <form class="inp fr">
+                    <input class="inp1" type="text"/><input class="inp2" type="button"/>
+                </form>
+                
+            </div>
+            <div class="header_b">
+                <ul class="logo_nav">
+                    <li><a href=""><span>首页</span></a></li>
+                    <li><a href=""><span>新品</span></a></li>
+                    <li><a href=""><span>男士</span></a></li>
+                    <li><a href=""><span>女士</span></a></li>
+                    <li><a href=""><span>品牌</span></a></li>
+                    <li><a href=""><span>手机走秀</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div> 
+    <div id="nav">
+        <div class="nav con">
+            <ul>
+                <li class="l1"><a href=""><p>包袋</p></a>
+                    <div class="bao">
+                        <ul class="u1 fl">
+                            <li class="nvbao">
+                                <a href="">女士包袋</a><br />
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a><br />
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a> 
+                            </li>
+                            <li class="nanbao">
+                                <a href="">男士包袋</a><br />
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a><br />
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a>
+                            </li>
+                            <li class="gongbao">
+                                <a href="">功能箱包</a><br />
+                                <a href="">水煎包</a>
+                                <a href="">水煎包</a>
+                                <a href="">水煎包</a>
+                                <a href="">水煎包</a>
+
+                            </li>
+                            <li class="lvbao">
+                                <a href="">旅行箱包</a><br />
+                                <a href="">灌汤包</a>
+                                <a href="">灌汤包</a>
+                                <a href="">灌汤包</a>
+                                <a href="">灌汤包</a>
+                            </li>
+                        </ul>
+                        <ul class="u2 fl">
+                            <span>热门品牌:</span>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </li>
+                <li class="l1"><a href=""><p>服饰</p></a>
+                    <div class="bao">
+                        <ul class="u1 fl">
+                            <li class="nvbao">
+                                <a href="">女士包袋</a><br />
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a><br />
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a> 
+                            </li>
+                            <li class="nanbao">
+                                <a href="">男士包袋</a><br />
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a><br />
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a>
+                            </li>
+                            <li class="gongbao">
+                                <a href="">功能箱包</a><br />
+                                <a href="">水煎包</a>
+                                <a href="">水煎包</a>
+                                <a href="">水煎包</a>
+                                <a href="">水煎包</a>
+
+                            </li>
+                            <li class="lvbao">
+                                <a href="">旅行箱包</a><br />
+                                <a href="">灌汤包</a>
+                                <a href="">灌汤包</a>
+                                <a href="">灌汤包</a>
+                                <a href="">灌汤包</a>
+                            </li>
+                        </ul>
+                        <ul class="u2 fl">
+                            <span>热门品牌:</span>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="l1"><a href=""><p>鞋靴</p></a>
+                    <div class="bao">
+                        <ul class="u1 fl">
+                            <li class="nvbao">
+                                <a href="">女士包袋</a><br />
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a><br />
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a> 
+                            </li>
+                            <li class="nanbao">
+                                <a href="">男士包袋</a><br />
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a><br />
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a>
+                            </li>
+                            <li class="gongbao">
+                                <a href="">功能箱包</a><br />
+                                <a href="">水煎包</a>
+                                <a href="">水煎包</a>
+                                <a href="">水煎包</a>
+                                <a href="">水煎包</a>
+
+                            </li>
+                            <li class="lvbao">
+                                <a href="">旅行箱包</a><br />
+                                <a href="">灌汤包</a>
+                                <a href="">灌汤包</a>
+                                <a href="">灌汤包</a>
+                                <a href="">灌汤包</a>
+                            </li>
+                        </ul>
+                        <ul class="u2 fl">
+                            <span>热门品牌:</span>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>   
+                <li class="l1"><a href=""><p>腕表</p></a>
+                    <div class="bao">
+                        <ul class="u1 fl">
+                            <li class="nvbao">
+                                <a href="">女士包袋</a><br />
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a><br />
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a> 
+                            </li>
+                            <li class="nanbao">
+                                <a href="">男士包袋</a><br />
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a><br />
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a>
+                            </li>
+                            <li class="gongbao">
+                                <a href="">功能箱包</a><br />
+                                <a href="">水煎包</a>
+                                <a href="">水煎包</a>
+                                <a href="">水煎包</a>
+                                <a href="">水煎包</a>
+
+                            </li>
+                            <li class="lvbao">
+                                <a href="">旅行箱包</a><br />
+                                <a href="">灌汤包</a>
+                                <a href="">灌汤包</a>
+                                <a href="">灌汤包</a>
+                                <a href="">灌汤包</a>
+                            </li>
+                        </ul>
+                        <ul class="u2 fl">
+                            <span>热门品牌:</span>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="l1"><a href=""><p>配饰</p></a>
+                    <div class="bao">
+                        <ul class="u1 fl">
+                            <li class="nvbao">
+                                <a href="">女士包袋</a><br />
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a><br />
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a> 
+                            </li>
+                            <li class="nanbao">
+                                <a href="">男士包袋</a><br />
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a><br />
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a>
+                            </li>
+                            <li class="gongbao">
+                                <a href="">功能箱包</a><br />
+                                <a href="">水煎包</a>
+                                <a href="">水煎包</a>
+                                <a href="">水煎包</a>
+                                <a href="">水煎包</a>
+
+                            </li>
+                            <li class="lvbao">
+                                <a href="">旅行箱包</a><br />
+                                <a href="">灌汤包</a>
+                                <a href="">灌汤包</a>
+                                <a href="">灌汤包</a>
+                                <a href="">灌汤包</a>
+                            </li>
+                        </ul>
+                        <ul class="u2 fl">
+                            <span>热门品牌:</span>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="l1"><a href=""><p>妆品</p></a>
+                    <div class="bao">
+                        <ul class="u1 fl">
+                            <li class="nvbao">
+                                <a href="">女士包袋</a><br />
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a><br />
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a> 
+                            </li>
+                            <li class="nanbao">
+                                <a href="">男士包袋</a><br />
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a><br />
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a>
+                            </li>
+                            <li class="gongbao">
+                                <a href="">功能箱包</a><br />
+                                <a href="">水煎包</a>
+                                <a href="">水煎包</a>
+                                <a href="">水煎包</a>
+                                <a href="">水煎包</a>
+
+                            </li>
+                            <li class="lvbao">
+                                <a href="">旅行箱包</a><br />
+                                <a href="">灌汤包</a>
+                                <a href="">灌汤包</a>
+                                <a href="">灌汤包</a>
+                                <a href="">灌汤包</a>
+                            </li>
+                        </ul>
+                        <ul class="u2 fl">
+                            <span>热门品牌:</span>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="l1"><a href=""><p>生活</p></a>
+                    <div class="bao">
+                        <ul class="u1 fl">
+                            <li class="nvbao">
+                                <a href="">女士包袋</a><br />
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a><br />
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a> 
+                            </li>
+                            <li class="nanbao">
+                                <a href="">男士包袋</a><br />
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a><br />
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a>
+                            </li>
+                            <li class="gongbao">
+                                <a href="">功能箱包</a><br />
+                                <a href="">水煎包</a>
+                                <a href="">水煎包</a>
+                                <a href="">水煎包</a>
+                                <a href="">水煎包</a>
+
+                            </li>
+                            <li class="lvbao">
+                                <a href="">旅行箱包</a><br />
+                                <a href="">灌汤包</a>
+                                <a href="">灌汤包</a>
+                                <a href="">灌汤包</a>
+                                <a href="">灌汤包</a>
+                            </li>
+                        </ul>
+                        <ul class="u2 fl">
+                            <span>热门品牌:</span>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="l1"><a href=""><p>婴童</p></a>
+                    <div class="bao">
+                        <ul class="u1 fl">
+                            <li class="nvbao">
+                                <a href="">女士包袋</a><br />
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a><br />
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a>
+                                <a href="">鲜肉包</a> 
+                            </li>
+                            <li class="nanbao">
+                                <a href="">男士包袋</a><br />
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a><br />
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a>
+                                <a href="">豆沙包</a>
+                            </li>
+                            <li class="gongbao">
+                                <a href="">功能箱包</a><br />
+                                <a href="">水煎包</a>
+                                <a href="">水煎包</a>
+                                <a href="">水煎包</a>
+                                <a href="">水煎包</a>
+
+                            </li>
+                            <li class="lvbao">
+                                <a href="">旅行箱包</a><br />
+                                <a href="">灌汤包</a>
+                                <a href="">灌汤包</a>
+                                <a href="">灌汤包</a>
+                                <a href="">灌汤包</a>
+                            </li>
+                        </ul>
+                        <ul class="u2 fl">
+                            <span>热门品牌:</span>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                            <li>
+                                <a href="">天津狗不理</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="">天津狗不理</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="main">
+        <div class="main con">
+            <div class="t-head">
+                <span>您的位置:</span>
+                <a href="">走进首页</a> > <a href="">列表页</a> > <a href="">详情页</a>
+            </div>
+            <div class="magnifier fl" id="magnifier1">
+                <div class="magnifier-container">
+                    <div class="images-cover tupian"></div>
+                    <!--当前图片显示容器-->
+                    <div class="move-view"></div>
+                    <!--跟随鼠标移动的盒子-->
+                </div>
+                <div class="magnifier-assembly">
+                    <div class="magnifier-btn">
+                        <span class="magnifier-btn-left">&lt;</span>
+                        <span class="magnifier-btn-right">&gt;</span>
+                    </div>
+                    <!--按钮组-->
+                    <div class="magnifier-line">
+                        <ul class="clearfix animation03">
+                            <li>
+                                <div class="small-img tupian">
+                                    <!-- <img src="../images/lee.png" /> -->
+                                </div>
+                            </li>
+                            <li>
+                                <div class="small-img">
+                                    <img src="../images/chuangdan.png" />
+                                </div>
+                            </li>
+                            <li>
+                                <div class="small-img">
+                                    <img src="../images/lee.png" />
+                                </div>
+                            </li>
+                            <li>
+                                <div class="small-img">
+                                    <img src="../images/lee.png" />
+                                </div>
+                            </li>
+                            <li>
+                                <div class="small-img">
+                                    <img src="../images/lee.png" />
+                                </div>
+                            </li>
+                            <li>
+                                <div class="small-img">
+                                    <img src="../images/lee.png" />
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--缩略图-->
+                </div>
+                <div class="magnifier-view"></div>
+                <!--经过放大的图片显示容器-->
+            </div>
+            <div class="title fr">
+                <h3 class="name"></h3>
+                <font>品&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;牌：</font><a href="" class="pinpai"></a>
+            </div>
+            <div class="price fr">
+                <span class="dazhe">限时热卖：</span><span class="save"></span><span>剩余：</span><span id="countDown"></span><br />
+                <span>走秀价：</span><span class="jiaqian"></span><br />
+                <span>促销：</span><span>满2万减5千，满1万减2千，满5千减750</span><br />
+                <span>发货地：</span><span class="dizhi"></span><br />
+                <span>税费：</span><span>由海外卖家承担</span>
+            </div>
+            <div class="shuxing fr">
+                <span>颜色：</span>
+                <ul>
+                    <li><a href="">红色</a></li>
+                    <li><a href="">黑色</a></li>
+                    <li><a href="">蓝色</a></li>
+                </ul><br />
+                <span>尺码：</span>
+                <ul>
+                    <li><a href="">29</a></li>
+                    <li><a href="">30</a></li>
+                    <li><a href="">31</a></li>
+                    <li><a id="sizeHref" href="http://www.xiu.com/help/help9-3-8.shtml#s_id=1_32286_2_1" class="cmzn" target="_blank" style="color:#005ba1;z-index:9;float:left; text-decoration:underline; padding-left:10px;">尺码指南</a></li>
+                </ul><br />
+                <span>数量：</span><input class="qty" type="text" value="1"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>件</span><br />
+                <a href="">支持分期付款</a>
+                <span>由S.T Fashion提供</span>
+                <span>由走秀网提供售后服务</span>
+                <a href="#" class="buy">立即购买</a><a  class="scar">加入购物车</a><br />
+                <img src="../images/dianhua.png" height="33" width="279" alt="" />
+            </div>
+            <div class="fenxiang">
+                <img src="../images/fenxiang.png" height="121" width="584" alt="" />
+            </div>
+        </div>
+    </div>
+    <div id="foot">
+        <div class="foot con">
+            <ul>
+                <li><span>关于走秀</span></li>
+                <li><span>关于走秀</span></li>
+                <li><span>关于走秀</span></li>
+                <li><span>关于走秀</span></li>
+                <li><span>关于走秀</span></li>
+                <li><span>关于走秀</span></li>
+                <li><span>关于走秀</span></li>
+                <li><span>关于走秀</span></li>
+                <li><span>关于走秀</span></li>
+            </ul>
+             <div>
+            <img src="../images/foot.png" height="188" width="1200" alt="" />
+            </div>
+        </div>
+    </div>
+    <div id="tiao">
+        <ul class="tiao">
+            <li><a class="close">关闭</a></li>
+            <li><i class="iconfont icon-informatiom_"></i>在线客服</li>
+            <li><i class="iconfont icon-gouwudai"></i><span>1</span>购物袋</li>
+            <li><i class="iconfont icon-tucaoyixia"></i>我要吐槽</li>
+            <li class="totop"><i class="iconfont icon-dingbu"></i>顶部</li>
+            
+        </ul>
+    </div> 
+</body>
+</html> 

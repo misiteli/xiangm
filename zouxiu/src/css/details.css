@@ -1,0 +1,465 @@
+#header {
+  width: 100%;
+  height: 93px;
+  background: #333333;
+}
+
+#header .header {
+  height: 93px;
+}
+
+#header .header .header_t {
+  position: relative;
+  padding-top: 10px;
+  height: 50px;
+  width: 1200px;
+}
+
+#header .header .header_t .denglu {
+  color: #B7B7B7;
+  font-size: 12px;
+  line-height: 24px;
+  margin-left: 20px;
+}
+
+#header .header .header_t .car {
+  color: #B7B7B7;
+  font-size: 12px;
+  line-height: 24px;
+  background: url(../images/logo_bag.png) no-repeat left center;
+  margin-left: 30px;
+  padding-left: 20px;
+  width: 115px;
+  height: 24px;
+}
+
+#header .header .header_t .car .car_son {
+  background: #fff;
+  width: 200px;
+  display: none;
+  z-index: 1;
+}
+
+#header .header .header_t .car .car_son .xx {
+  border-bottom: 1px solid #ccc;
+}
+
+#header .header .header_t .main {
+  height: 24px;
+  color: #B7B7B7;
+  font-size: 12px;
+  line-height: 24px;
+  background: url(../images/logo_xjj.png) no-repeat right center;
+  margin-left: 20px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+#header .header .header_t .logo {
+  padding-left: 218px;
+}
+
+#header .header .header_t .inp {
+  border: 1px solid #787878;
+  width: 265px;
+  height: 30px;
+}
+
+#header .header .header_t .inp1 {
+  width: 230px;
+  height: 28px;
+  font: 12px;
+  color: #787878;
+  background: #333333;
+}
+
+#header .header .header_t .inp2 {
+  width: 33px;
+  height: 28px;
+  font: 12px;
+  color: #787878;
+  background: url(../images/logo_sourch.png) no-repeat center center;
+}
+
+#header .header .header_b {
+  height: 43px;
+  padding-left: 366px;
+}
+
+#header .header .header_b .logo_nav li {
+  float: left;
+}
+
+#header .header .header_b .logo_nav li span {
+  font-size: 16px;
+  color: #fff;
+  padding: 0 20px 18px 20px;
+}
+
+#header .header .header_b .logo_nav li :hover span {
+  color: #bfbfbf;
+  border-bottom: 2px solid #727071;
+}
+
+#nav {
+  height: 42px;
+  width: 100%;
+  background: #F7F7F7;
+}
+
+#nav .nav {
+  padding-left: 328px;
+  height: 42px;
+}
+
+#nav .nav ul .l1 {
+  font-size: 14px;
+  float: left;
+  position: relative;
+}
+
+#nav .nav ul .l1 p {
+  display: inline;
+  color: #000000;
+  padding: 10px 20px 12px 20px;
+  line-height: 42px;
+}
+
+#nav .nav ul .l1 .bao {
+  display: none;
+}
+
+#nav .nav ul .l1 div {
+  position: absolute;
+  top: 42px;
+  width: 800px;
+  height: 500px;
+  border: 1px solid #ccc;
+  border-top: none;
+  background: #fff;
+  padding: 20px 0 0 10px;
+}
+
+#nav .nav ul .l1 div .u1 {
+  width: 450px;
+}
+
+#nav .nav ul .l1 div .u1 .nvbao {
+  border-bottom: 1px dashed #333333;
+  padding-bottom: 10px;
+}
+
+#nav .nav ul .l1 div .u1 .nvbao :nth-child(1) {
+  font-weight: 900;
+  font-size: 12px;
+  color: #333333;
+  border: none;
+}
+
+#nav .nav ul .l1 div .u1 .nvbao a {
+  padding: 0 10px;
+  font-size: 12px;
+  border-right: 1px solid #ccc;
+  line-height: 24px;
+  color: #333333;
+}
+
+#nav .nav ul .l1 div .u1 .nanbao {
+  border-bottom: 1px dashed #333333;
+  padding-bottom: 10px;
+}
+
+#nav .nav ul .l1 div .u1 .nanbao :nth-child(1) {
+  font-weight: 900;
+  font-size: 12px;
+  color: #333333;
+  border: none;
+}
+
+#nav .nav ul .l1 div .u1 .nanbao a {
+  padding: 0 10px;
+  font-size: 12px;
+  border-right: 1px solid #ccc;
+  line-height: 24px;
+  color: #333333;
+}
+
+#nav .nav ul .l1 div .u1 .gongbao {
+  border-bottom: 1px dashed #333333;
+  padding-bottom: 10px;
+}
+
+#nav .nav ul .l1 div .u1 .gongbao :nth-child(1) {
+  font-weight: 900;
+  font-size: 12px;
+  color: #333333;
+  border: none;
+}
+
+#nav .nav ul .l1 div .u1 .gongbao a {
+  padding: 0 10px;
+  font-size: 12px;
+  border-right: 1px solid #ccc;
+  line-height: 24px;
+  color: #333333;
+}
+
+#nav .nav ul .l1 div .u1 .lvbao {
+  border-bottom: 1px dashed #333333;
+  padding-bottom: 10px;
+}
+
+#nav .nav ul .l1 div .u1 .lvbao :nth-child(1) {
+  font-weight: 900;
+  font-size: 12px;
+  color: #333333;
+  border: none;
+}
+
+#nav .nav ul .l1 div .u1 .lvbao a {
+  padding: 0 10px;
+  font-size: 12px;
+  border-right: 1px solid #ccc;
+  line-height: 24px;
+  color: #333333;
+}
+
+#nav .nav ul .l1 div .u2 {
+  margin-left: 30px;
+}
+
+#nav .nav ul .l1 div .u2 span {
+  font-size: 12px;
+  font-weight: 900;
+}
+
+#nav .nav ul .l1 div .u2 a {
+  font-size: 12px;
+  color: #333333;
+  line-height: 20px;
+  padding: 10px;
+}
+
+#nav .nav ul .l1 :hover p {
+  background: #fff;
+  border: 1px solid #CCC;
+  border-bottom: none;
+}
+
+#main {
+  min-height: 1800px;
+  width: 100%;
+}
+
+#main .main {
+  min-height: 1800px;
+  padding: 0 100px;
+}
+
+#main .main .t-head {
+  height: 30px;
+  font-size: 12px;
+  line-height: 30px;
+  color: #333;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+#main .main .title {
+  height: 64px;
+  width: 480px;
+  padding-left: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+#main .main .title h3 {
+  font-size: 14px;
+  font-weight: 900;
+  color: #333;
+  line-height: 32px;
+}
+
+#main .main .title font {
+  font-size: 12px;
+  color: #8c7d7d;
+  line-height: 24px;
+}
+
+#main .main .title a {
+  font-size: 12px;
+  color: #8c7d7d;
+  text-decoration: underline;
+  line-height: 24px;
+}
+
+#main .main .price {
+  height: 190px;
+  width: 480px;
+  padding-left: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+#main .main .price span {
+  padding-right: 10px;
+  line-height: 36px;
+  font-size: 12px;
+  color: #8c7d7d;
+}
+
+#main .main .price .dazhe {
+  line-height: 36px;
+  font-size: 12px;
+  color: orangered;
+}
+
+#main .main .price .save {
+  font-size: 24px;
+  line-height: 36px;
+  color: orange;
+}
+
+#main .main .price #countDown {
+  line-height: 36px;
+  font-size: 12px;
+  color: #8c7d7d;
+}
+
+#main .main .price .dizhi {
+  font-size: 16px;
+  color: orange;
+}
+
+#main .main .shuxing {
+  height: 330px;
+  width: 480px;
+  border-bottom: 1px solid #ccc;
+}
+
+#main .main .shuxing span {
+  display: inline-block;
+  margin: 10px 0;
+  height: 30px;
+  padding-right: 10px;
+  line-height: 30px;
+  font-size: 12px;
+  color: #8c7d7d;
+}
+
+#main .main .shuxing ul {
+  display: inline-block;
+  margin-top: 5px;
+}
+
+#main .main .shuxing ul li {
+  float: left;
+  font-size: 12px;
+  border: 1px solid #333;
+  margin-right: 20px;
+  padding: 5px;
+}
+
+#main .main .shuxing ul li a {
+  color: #333;
+}
+
+#main .main .shuxing ul li:nth-child(4) {
+  border: none;
+}
+
+#main .main .shuxing input {
+  height: 30px;
+  width: 60px;
+  border: 1px solid #ccc;
+  padding: 0 15px;
+}
+
+#main .main .shuxing .buy, #main .main .shuxing .scar {
+  display: inline-block;
+  width: 200px;
+  height: 45px;
+  border-radius: 3px;
+  background: green;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  line-height: 45px;
+  text-align: center;
+  color: #fff;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+#main .main .shuxing .scar {
+  background: red;
+}
+
+#main .main .fenxiang {
+  text-align: center;
+  height: 122px;
+}
+
+#foot {
+  height: 236px;
+  width: 100%;
+}
+
+#foot .foot {
+  height: 236px;
+}
+
+#foot .foot ul {
+  padding-left: 228px;
+  padding-top: 20px;
+}
+
+#foot .foot ul li span {
+  padding: 0 10px;
+  float: left;
+  background: url(../images/foot_bd.png) no-repeat right center;
+}
+
+#tiao {
+  position: fixed;
+  top: 300px;
+  right: 0;
+  width: 80px;
+  height: 284px;
+}
+
+#tiao .tiao {
+  color: #FEFDFD;
+}
+
+#tiao .tiao li {
+  width: 76px;
+  height: 60px;
+  font-size: 14px;
+  background: #333;
+  text-align: center;
+  line-height: 35px;
+  border: 1px #fff solid;
+  position: relative;
+}
+
+#tiao .tiao li i {
+  font-size: 35px;
+  padding-left: 18px;
+}
+
+#tiao .tiao li span {
+  display: inline-block;
+  position: absolute;
+  line-height: 20px;
+  top: 0px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: red;
+  color: #fff;
+  font-size: 12px;
+}
+
+#tiao .tiao li:nth-child(1) {
+  height: 40px;
+  line-height: 40px;
+}

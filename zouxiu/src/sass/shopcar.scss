@@ -1,0 +1,129 @@
+$color:#B7B7B7 !global;
+$fontSize:12px !default;
+$line-height: 24px;
+#header{
+    width: 100%;
+    height: 60px;
+    background: #333333;
+    .header{ 
+        height: 60px;
+        padding: 10px 125px;
+        .denglu{
+            font-size: 14px;
+            color: #fff;
+        }
+    }
+}
+#main{
+    min-height: 600px;
+    width: 100%;
+    .main{
+        min-height: 600px;
+        padding: 0 125px;
+        .tou{
+            margin: 30px 0 50px 0;
+        }
+        #datalist{
+            margin-bottom: 30px;
+            border: 1px solid #ccc;
+            tr.selected{background-color:#fc0 !important;color:#fff;}
+            thead{
+                height: 30px;
+                font-size: 12px;
+                line-height: 30px;
+                background: #ccc;
+            }
+            tbody tr{
+                border: 1px solid #ccc;
+                height: 120px;
+                font-size: 12px;
+                line-height: 30px;
+                text-align: center;
+                div{
+                    height: 82px;
+                    padding-left: 80px;
+                    img{
+                        float: left;
+                    }
+                    span{
+                        display: inline-block;
+                        width: 200px;
+                        text-align: left;
+                    }
+                }
+                .jia,.jian{
+                    display: inline-block;
+                    border: 1px solid #333;
+                    width: 15px;
+                    height: 15px;
+                    line-height: 15px;
+                }
+                .txt{
+                    width: 40px;
+                    height: 20px;
+                }
+            }
+        }
+        .jiesuan{
+                background: #fff;
+                // position: fixed;
+                bottom: 0;
+                left: 50%;
+                height: 80px;
+                border: 1px solid #ccc;
+                .del{
+                    display: inline-block;
+                    text-align: center;
+                    height: 50px;
+                    width: 80px;
+                    background: orange;
+                    line-height: 50px;
+                    margin: 15px 30px;
+                }
+                .suanqian{
+                    display: inline-block;
+                    float: right;
+                    text-align: center;
+                    border-radius: 10px;
+                    height: 50px;
+                    width: 120px;
+                    background: orange;
+                    line-height: 50px;
+                    margin: 15px 30px;
+                }
+                span{
+                    font-size: 12px;
+                    color: #333;
+        }
+    }
+}
+}
+#foot{
+    height: 100px;
+    width: 100%;
+    .foot{
+        height: 100px;
+        margin: 0 125px;
+        border-top: 1px solid #ccc;
+        ul{
+            padding-left: 288px;
+            padding-top: 20px;
+            li{
+                span{
+                    font-size: 12px;
+                    padding: 0 10px;
+                    float: left;
+                    background: url(../images/foot_bd.png) no-repeat right center;
+                }
+            }
+        }
+        .foot_b{
+            color: #ccc;
+            text-align: center;
+            font-size: 12px;
+            a{
+                color: #ccc;
+            }
+        }
+    }
+}

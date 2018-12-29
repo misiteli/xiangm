@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>走秀注册</title>
+</head>
+    <link rel="stylesheet" type="text/css" href="../css/_base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/zhuce.css" />
+    <link rel="stylesheet" type="text/css" href="../css/jquery.idcode.css" />
+    <script src="../lib/jquery-3.2.1.js"></script>
+   <!--  <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script> -->
+    <script src="../js/jquery.idcode.js"></script>
+    <script src="../js/zhuce.js"></script>
+<body>
+    <div id="header">
+        <div class="header con">
+                <div class="logo">
+                    <a href="../index.html"><img src="../images/logo.png" height="33" width="210" alt="" /></a>
+                </div>
+         </div>
+    </div>
+    <div id="main">
+        <div class="main con">
+            <div class="page">
+                <ul>
+                    <li><a class="a1" href="zhuce.html">登录注册</a></li>
+                    <li><a class="a2" href="denglu.html">验证登录</a></li>
+                </ul>
+                <div class="page_b">
+                    <form action="">
+                        <span>用户名：</span><input class="uname" type="text" placeholder="用户名或手机号"/><br /><a class="yonghu"></a><br />
+                        <span>密码：</span><input class="mima" type="password"/><br />
+                        <span>确认密码：</span><input class="word" type="password" /><br /><a class="queren"></a><br />
+                        <label class="lblVerification">验证码</label>
+                        <input type="text" id="Txtidcode" class="txtVerification" />
+                        <span id="idcode"></span>
+                        <input class="btn" type="button" value="注册"/>
+                        <!-- <script>
+                            $.idcode.setCode();
+                            
+                            $(".btn").click(function (){
+                                var IsBy = $.idcode.validateCode(); 
+                                alert(IsBy);
+                                // console.log(IsBy);
+                            });
+                        </script> -->
+                        
+                    </form>
+                    <p class="p1">合作网站账号登录</p>
+                    <a class="a1" href=""><img src="../images/qq.png" height="31" width="31" alt="" /></a>
+                    <a class="a1" href=""><img src="../images/qq.png" alt="" /></a>
+                    <a class="a1" href=""><img src="../images/qq.png" alt="" /></a>
+                    <a class="a1" href=""><img src="../images/qq.png" alt="" /></a>
+                    <a class="a1" href=""><img src="../images/qq.png" alt="" /></a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div id="foot">
+        <div class="foot con">
+            <ul>
+                <li><span>关于走秀</span></li>
+                <li><span>关于走秀</span></li>
+                <li><span>关于走秀</span></li>
+                <li><span>关于走秀</span></li>
+                <li><span>关于走秀</span></li>
+                <li><span>关于走秀</span></li>
+                <li><span>关于走秀</span></li>
+                <li><span>关于走秀</span></li>
+                <li><span>关于走秀</span></li>
+            </ul><br />
+             <div class="foot_b">
+                Copyright © 2008-<script>document.write(new Date().getFullYear());</script>2018 <a href="http://www.xiu.com">Xiu.com</a> 版权所有 . 粤ICP备07502993号
+                <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030402000804" target="_blank">
+                    <img src="http://www.xiustatic.com/static/img/footer/wab.png" width="14" height="14">
+                     粤公网安备 44030402000804号
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

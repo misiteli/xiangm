@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>走秀网-全球品牌网络旗舰店：正品，支持货到付款，7天退换货保障！</title>
+<link href="http://www.xiustatic.com/static/css/default/commX.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://www.xiu.com/static/js/library/jquery-1.6.2.min.js"></script>
+<script type="text/javascript" src="http://www.xiu.com/static/js/xiu/click_xiu.js"></script>
+</head>
+<body>
+<!-- 公用头部 开始-->
+<!--\#include virtual="/channel_header915.shtml" -->
+<!-- 公用头部 结束-->
+<script type="text/javascript">
+
+
+  var _gaq = _gaq || [];
+
+
+  _gaq.push(['_setAccount', 'UA-9540643-5']);
+
+
+   _gaq.push(['_addOrganic', 'soso', 'w']);
+
+
+   _gaq.push(['_addOrganic', 'youdao', 'q']);
+
+
+   _gaq.push(['_addOrganic', 'baidu', 'word']);
+
+
+   _gaq.push(['_addOrganic', 'sogou', 'query']);
+
+
+   _gaq.push(['_setDomainName', '.xiu.com']);
+
+
+   _gaq.push(['_setAllowLinker', true]);
+
+
+   _gaq.push(['_setAllowHash', false]); 
+
+
+   _gaq.push(['_trackPageview']);
+
+
+   _gaq.push(['_trackPageLoadTime']);
+
+
+
+
+
+  (function() {
+
+
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+
+
+  })();
+
+
+</script>
+<div class="w four_error">
+  <div class="ferror_info">
+    <p class="back_home">如果您想返回首页，请点击：<a href="http://www.xiu.com">返回首页</a>祝您购物愉快！</p>
+  </div>
+  <div class="bord_box">
+    <div class="index_pro tj_pro bgcolor">
+      <h2>推荐产品</h2>
+      <div class="index_tab_con" id="goodsList"> </div>
+      <div style="position:absolute; bottom:15px; right:15px;"><a href="#" class="bfd_img_logo"></a></div>
+    </div>
+  </div>
+</div>
+<!-- 页脚 开始 -->
+<!--\#include virtual="/static/web/M_footer.html" -->
+<!-- 页脚 结束 -->
+<script type="text/javascript">
+	var _BFD = window["_BFD"]||{};
+	_BFD.BFD_ITEM_INFO = {
+		client : "Czouxiu"  //百分点服务账号，测试环境下请务必使用测试账号，正式环境务必更改为正式账号。
+	};
+	_BFD.script = document.createElement("script");
+	_BFD.script.setAttribute("src", "http://www.xiustatic.com/static/js/thirdparty/bfd/zx_error.min.js");
+	_BFD.script.setAttribute('type', 'text/javascript');
+	_BFD.script.setAttribute("charset", "utf-8");
+	document.getElementsByTagName("head")[0].appendChild(_BFD.script);
+</script>
+<script type="text/javascript">XIU.Window.send();</script>
+</body>
+</html>
