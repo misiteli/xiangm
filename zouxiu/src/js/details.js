@@ -85,8 +85,10 @@ $(function() {
                
             })
             // 将用户和和商品一起存入数据库=====================
+            var num = 0;
             $(".scar").on("click",function(){
-                // console.log(row)
+                num += Number($(".qty").val());
+                $(".shu").html(num)
                 if(Cookie.getCookie("yonghu") != ""){
                     var yonghu = Cookie.getCookie("yonghu");
                     var qty = $(".qty").val();
@@ -119,10 +121,7 @@ $(function() {
                     // console.log(xxx);
                     // console.log(title)
                     str +=(`<li id="${item.id}" class="xx">
-                    
                                     <img class="fl" src="../${item.name}" width="50" height="72"/>
-                    
-                            
                                     <span class="span1">${item.brand}</span><br />
                                     <span class="span2">${item.imgurl}</span><br />
                                     <span class="span3">￥${item.price}</span><span>&times;${item.qty}</span>
@@ -130,11 +129,11 @@ $(function() {
                             </li>`)
                     $(".car_son").html(`${str}`);
                 })
-                $(".car").on("mouseover",".car>li",function(){
+                $(".car").on("mouseover",function(){
                     $(this).css({"background":"#fff"});
                     $(".car_son").css({"display":"block"});
                 })
-                $(".car").on("mouseout",".car>li",function(){
+                $(".car").on("mouseout",function(){
                     $(this).css({"background":"#333"});
                     $(".car_son").css({"display":"none"});
                 })
@@ -176,5 +175,9 @@ $(function() {
             $(".denglu").attr("href","../html/list.html");
         })
     }
+    $(".xiaocar").on("click",function(){
+        location.href = "../html/shopcar.html"
+    })
+
 
 })

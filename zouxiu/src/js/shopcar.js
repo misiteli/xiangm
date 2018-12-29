@@ -67,20 +67,29 @@ jQuery(function($){
                                     } 
                         })
                         
+                        
                                 // 3.点击单行任意位置，切换高亮(切换类名)，根据类名是否存在设置多选框的状态
                         $(".other").on("click",function(){
                             $(this).closest("tr").toggleClass("selected");
                             $(this).closest("tr").find(":checkbox").prop("checked",$(this).closest("tr").hasClass("selected"));
                             all();
                             if($(this).closest("tr").find(":checkbox").prop("checked")){
-                                total += $(this).closest("tr").find($(".txt")).html()*$(this).closest("tr").find($(".qian")).html();
+                                         var ss = $(".total").html();
+                                         // console.log(ss.splice(1));
+                                         // console.log(ss.slice(1));
+                                         var total = Number(ss.slice(1));
+                                total += Number($(this).closest("tr").find($(".txt")).html()*$(this).closest("tr").find($(".qian")).html());
                                 // total += price;
-                                console.log(total);
+                                // console.log(total);
                                 $(".total").html("￥"+total)
                             }else if(!$(this).closest("tr").find(":checkbox").prop("checked")){
+                                         var ss = $(".total").html();
+                                         // console.log(ss.splice(1));
+                                         // console.log(ss.slice(1));
+                                         var total = ss.slice(1)
                                 total -= $(this).closest("tr").find($(".txt")).html()*$(this).closest("tr").find($(".qian")).html();
                                 // total += price;
-                                console.log(total);
+                                // console.log(total);
                                 $(".total").html("￥"+total)
                             }
                         function all(){

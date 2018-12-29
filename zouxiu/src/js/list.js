@@ -241,11 +241,12 @@ jQuery(function($){
                             </li>`)
                     $(".car_son").html(`${str}`);
                 })
-                $(".car").on("mouseover",".car>li",function(){
+                    console.log($(".car"));
+                $(".car").on("mouseover",function(){
                     $(this).css({"background":"#fff"});
                     $(".car_son").css({"display":"block"});
                 })
-                $(".car").on("mouseout",".car>li",function(){
+                $(".car").on("mouseout",function(){
                     $(this).css({"background":"#333"});
                     $(".car_son").css({"display":"none"});
                 })
